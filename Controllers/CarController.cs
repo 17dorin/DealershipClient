@@ -51,7 +51,14 @@ namespace DealershipClient.Controllers
             List<Car> inv = new List<Car>();
             if(notNullSearches.Count != 0)
             {
-                inv = carInv.GetInventory(notNullSearches.First().Key, notNullSearches.First().Value);
+                try
+                {
+                    inv = carInv.GetInventory(notNullSearches.First().Key, notNullSearches.First().Value);
+                }
+                catch
+                {
+                    return View("Index", inv);
+                }
             }
             else
             {
@@ -66,7 +73,7 @@ namespace DealershipClient.Controllers
             {
                 foreach(KeyValuePair<string, string> kvp in notNullSearches)
                 { 
-                    inv = inv.Where(x => x.ToString().ToLower().Contains(kvp.Value)).ToList();
+                    inv = inv.Where(x => x.ToString().ToLower().Contains(kvp.Value.ToLower())).ToList();
                 }
             }
 
