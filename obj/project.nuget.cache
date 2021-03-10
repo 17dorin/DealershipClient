@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "TRwShGTwDv44knSIHWztRQONYmSRuBSYovosu2A+19p0Tvh0FNWn2Dx4Jp4AUX/97zb5F/v4mkmtAHDvszD3iQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\17dor\\source\\repos\\DealershipClient\\DealershipClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\17dor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\17dor\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\17dor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\17dor\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\17dor\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
